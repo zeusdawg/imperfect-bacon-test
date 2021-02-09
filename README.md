@@ -8,14 +8,14 @@ The Selenium IDE can be installed on Firefox and Chrome via their web stores. Be
 
 https://www.selenium.dev/selenium-ide/
 
-A more indepth article about installing Selenium IDE is located here:
+Should an issue arise, more indepth article about installing Selenium IDE is located here:
 
 https://www.selenium.dev/selenium-ide/docs/en/introduction/getting-started
 
 
 ## Usage 
 
-Once you have the Selenium IDE installed on your browser, download the Selenium file, from the attachment sent via email, or from my github "Bacon_Project.side" to a handy, and memorable location on your hard drive.  
+Once you have the Selenium IDE installed on your browser, download the Selenium file, from the attachment sent via email, or from my github https://github.com/zeusdawg/imperfect-bacon-test "Bacon_Project.side" to a handy, and memorable location on your hard drive.  
 
 Open the browser that has Selenium installed, click on the Selenium icon in the toolbar.  Open "Bacon_Project.side".  You run the test by clicking play. This opens a tab and runs the test.  Click back onto the Selenium window to see the results of each step, should it be in the background.  
 
