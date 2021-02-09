@@ -1,6 +1,6 @@
 # Searching for Bacon
 
-This is a simple automated test that searches for bacon using Google.  It utilizes Selenium IDE as it's very easy to use, and gives a good visual test results.  It can also be used to create a simple test, and can be exported to a variety of languages to create a more in depth test that could, for example, be run on a server.
+This is a simple automated test that searches for bacon using Google.  It utilizes Selenium IDE as it's very easy to use, and gives good visual test results.  It can also be used to create a simple test, and can be exported to a variety of languages to create a more in depth test that could, for example, be run on a server.
 
 ## Installation of Selenium IDE
 
