@@ -1,0 +1,162 @@
+{
+  "id": "fffb4878-96dc-4117-be42-efbb068fb2dc",
+  "version": "2.0",
+  "name": "Bacon Project",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "cc16cac4-8620-41ff-9658-fdbbf349dbae",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "efe19fb5-d74b-4f80-aaec-b58c7496cfb2",
+    "name": "Bacon Search",
+    "commands": [{
+      "id": "b2576498-caac-469c-a940-d35c2354162f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "097f38cf-49bf-44dd-9bdd-ff53a9a3affc",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "bacon"
+    }, {
+      "id": "fbdae6f8-51dd-4c0a-a445-51d932163c42",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "ba26fa5c-ae62-407b-833a-272b7eed9303",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.hlcw0c:nth-child(1) > .g:nth-child(1) .LC20lb > span",
+      "targets": [
+        ["css=.hlcw0c:nth-child(1) > .g:nth-child(1) .LC20lb > span", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/a/h3/span", "xpath:idRelative"],
+        ["xpath=//h3/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Bacon - Wikipedia')]", "xpath:innerText"]
+      ],
+      "value": "https://en.wikipedia.org/wiki/Bacon"
+    }, {
+      "id": "cf86003d-758b-4c1e-91e4-7ec083ff70dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.REbHqc",
+      "targets": [
+        ["css=.REbHqc", "css:finder"],
+        ["xpath=//div[@id='kno-nf-nc']/table/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//div[2]/table/tbody/tr/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6509c499-b9bf-42d6-8897-c1829843e86e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.kno-nf-ss",
+      "targets": [
+        ["css=.kno-nf-ss", "css:finder"],
+        ["xpath=//div[@id='kno-nf-nc']/table/tbody/tr/td/div/div/select", "xpath:idRelative"],
+        ["xpath=//td/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45270247-b5c9-49b9-893c-51be21b43937",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.kno-nf-fs",
+      "targets": [
+        ["css=.kno-nf-fs", "css:finder"],
+        ["xpath=//div[@id='kno-nf-nc']/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "5ce8740d-77f4-49ee-8a36-5ff163cd8d57",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.PZPZlf > td > .V6Ytv",
+      "targets": [
+        ["css=.PZPZlf > td > .V6Ytv", "css:finder"],
+        ["xpath=//div[@id='kno-nf-nc']/table/tbody/tr[2]/td/span", "xpath:idRelative"],
+        ["xpath=//tr[2]/td/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Calories')]", "xpath:innerText"]
+      ],
+      "value": "43"
+    }, {
+      "id": "5bc88c33-f273-4493-9459-84d3f5c88112",
+      "comment": "",
+      "command": "click",
+      "target": "css=.kno-nf-fs",
+      "targets": [
+        ["css=.kno-nf-fs", "css:finder"],
+        ["xpath=//div[@id='kno-nf-nc']/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3cd5eaa-9ab4-4a33-a1ec-75aa263c12e5",
+      "comment": "",
+      "command": "select",
+      "target": "css=.kno-nf-fs",
+      "targets": [],
+      "value": "label=Bacon, baked"
+    }, {
+      "id": "eaf19ba6-e4ce-4300-ae80-f552b678e14e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.PZPZlf > td > .V6Ytv",
+      "targets": [
+        ["css=.PZPZlf > td > .V6Ytv", "css:finder"],
+        ["xpath=//div[@id='kno-nf-nc']/table/tbody/tr[2]/td/span", "xpath:idRelative"],
+        ["xpath=//tr[2]/td/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Calories')]", "xpath:innerText"]
+      ],
+      "value": "44"
+    }, {
+      "id": "a8cf0e1e-134b-452b-9239-eeb7ac283dbd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.kno-nf-cq > td",
+      "targets": [
+        ["css=.kno-nf-cq > td", "css:finder"],
+        ["xpath=//div[@id='kno-nf-nc']/table/tbody/tr[2]/td", "xpath:idRelative"],
+        ["xpath=//tr[2]/td", "xpath:position"],
+        ["xpath=//td[contains(.,'Calories 44')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d98ce570-3d1e-43b0-b685-a116c652dd9a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cc16cac4-8620-41ff-9658-fdbbf349dbae"]
+  }, {
+    "id": "907e3ea5-120b-4dfa-a5dc-06c74558766f",
+    "name": "Bacon_Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["efe19fb5-d74b-4f80-aaec-b58c7496cfb2"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
